@@ -4,7 +4,7 @@ Oscillators, heat flow and Monte Carlo experiments in plain NumPy, each one chec
 
 ![Normalising a point from a square favours the diagonals](figures/walk_step_angles.png)
 
-The work started as team projects for a Computer Modelling course during an exchange semester in Kraków (2025/26). This repository reorganises it into a small tested package with one script that regenerates every figure and number below.
+This started as team projects I worked on for a Computer Modelling course during my exchange semester in Kraków (2025/26). Here I reorganised them into a small tested package with one script that regenerates every figure and number below.
 
 ## What is inside
 
@@ -101,9 +101,9 @@ The two original written reports are in [`reports/`](reports/): [heat flow](repo
 
 ## Authorship
 
-Team: **Tadeo Kaufmann**, **Vadym Vovk** and **Emirhan Onal**.
+I did the original projects together with **Vadym Vovk** and **Emirhan Onal**.
 
-The `simphys` package, `run_all.py` and the tests were written when preparing this repository, rebuilding the team's original scripts into reusable functions. The following were added at that stage and are not part of the reports: the velocity Verlet comparison, the convergence and r = 1/6 studies, RANDU and the chi-square test, the second direction sampler and its exact density, and the decay rate bias analysis.
+When preparing this repository I wrote the `simphys` package, `run_all.py` and the tests, rebuilding our original scripts into reusable functions. I also added the velocity Verlet comparison, the convergence and r = 1/6 studies, RANDU and the chi-square test, the second direction sampler and its exact density, and the decay rate bias analysis. None of these additions are part of the reports.
 
 ## References
 
